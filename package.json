@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && npx http-server dist"
+  },
+  "devDependencies": {
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.2",
+    "css-loader": "^6.5.1",
+    "style-loader": "^3.3.0"
+  }
+}
